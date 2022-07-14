@@ -1,0 +1,1080 @@
+body{
+    margin: 0;
+    background: black;
+   
+}
+.outer-container{
+ position: fixed;
+ width: 100%;
+ height: 100%;
+ justify-content: center;
+ display: flex;
+ margin: 0;
+
+}
+
+
+
+.keyboard-container{
+   
+   position: relative;
+   justify-content: center;
+   width: 82%;
+    height: 380px;
+    margin-top: 100px;
+    background-color:rgb(117, 114, 114);
+    padding: 10px;
+    border-radius: 14px;
+    box-shadow: 0px 0px 10px 10px rgb(177, 171, 171);
+    
+   
+    
+}
+
+.keyboard-container .row-1{
+    display: flex; 
+    height: 50px;
+    margin-top: 5px;
+    cursor: pointer;
+    
+    
+   
+   
+}
+
+.keyboard-container .row-1 .order-1 p{
+  position: absolute;
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 16px;
+  margin-left: 8px;
+  font-weight: bold;
+
+}
+
+.keyboard-container .row-1  p{
+    position: absolute;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-left: 14px;
+    font-weight: bold;
+  
+  }
+.keyboard-container .row-1 .order-2{
+    display: flex;
+    margin-left: 60px;
+    gap: 10px;
+   
+}
+
+.keyboard-container .row-1 .order-3{
+    display: flex;
+    gap: 10px;
+    margin-left: 45px;
+}
+
+.keyboard-container .row-1 .order-4{
+    display: flex;
+    gap: 10px;
+    margin-left: 45px;
+}
+
+
+.keyboard-container .row-1 .order-5{
+    display: flex;
+    gap: 10px;
+    margin-left: 45px;
+}
+
+
+
+
+.keyboard-container .row-1 .keys{
+    position: relative;
+    background: linear-gradient(180deg,#0f0f0f,#1e201d);
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    box-shadow: inset 8px 8px 10px rgba(19, 17, 17, 0.15),
+     inset 0 8px 10px rgba(49, 27, 27, 0.25),
+      0 0 0 2px rgba(26, 25, 25, 0.75),
+      10px 20px 25px rgba(41, 21, 21, 0.4)
+ }
+ .keyboard-container .row-1 .keys::before{
+     content: "";
+     position: absolute;
+     top: 6px;
+     left: 6px;
+     bottom: 6px;
+     right: 6px;
+     background: linear-gradient(90deg , #232323,#4a4a4a);
+     border-radius: 6px;
+     box-shadow: 10px 10px 10px rgba(0,0,0,0.25),10px  5px 10px rgba(0,0,0,0.15);
+     border-left: 1px solid rgba(36, 31, 31, 0.267);
+     border-bottom: 1px solid rgba(27, 24, 24, 0.267);
+     border-top: 1px solid rgba(36, 33, 33, 0.6);
+ }
+
+
+
+
+
+.keyboard-container .row-2{
+    margin-top: 30px;
+    display: flex;
+    height: 50px;
+   
+}
+
+  
+  .keyboard-container .row-2  p{
+      position: absolute;
+      color: white;
+      text-align: center;
+      font-family: sans-serif;
+      font-size: 16px;
+      margin-left: 20px;
+      font-weight: bold;
+    
+    }
+
+.keyboard-container .row-2 .order-1{
+    display: flex;
+    
+    gap: 10px;
+}
+
+.keyboard-container .row-2 .order-2{
+    display: flex;
+    margin-left: 10px;
+}
+
+.keyboard-container .row-2 .keys-backspace{
+    position: relative;
+    background: linear-gradient(180deg,#202020,#1c1d1b);
+    width: 110px;
+    height: 50px;
+    border-radius: 8px;
+    box-shadow: inset -8px 0 8px rgba(56, 48, 48, 0.15),
+     inset 0 -8px 8px rgba(43, 38, 38, 0.25),
+      0 0 0 2px rgba(31, 27, 27, 0.75),
+      10px 20px 25px rgba(34, 31, 31, 0.4)
+ }
+ .keyboard-container .row-2 .keys-backspace::before{
+     
+     content: "";
+     position: absolute;
+     top: 6px;
+     left: 6px;
+     bottom: 6px;
+     right: 6px;
+     background: linear-gradient(90deg , #232323,#4a4a4a);
+     border-radius: 6px;
+     box-shadow: 10px 10px 10px rgba(0,0,0,0.25),10px  5px 10px rgba(0,0,0,0.15);
+     border-left: 1px solid rgba(36, 31, 31, 0.267);
+     border-bottom: 1px solid rgba(27, 24, 24, 0.267);
+     border-top: 1px solid rgba(36, 33, 33, 0.6);
+ }
+
+ .keyboard-container .row-2 .order-3{
+    display: flex;
+    margin-left: 45px;
+    gap: 10px;
+}
+
+
+
+
+
+.keyboard-container .row-2 .keys{
+    position: relative;
+    background: linear-gradient(180deg,#181616,#121312);
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    box-shadow: inset -8px 0 8px rgba(26, 24, 24, 0.15),
+     inset 0 -8px 8px rgba(43, 38, 38, 0.25),
+      0 0 0 2px rgba(34, 33, 33, 0.75),
+      10px 20px 25px rgba(19, 18, 18, 0.4)
+ }
+ .keyboard-container .row-2 .keys::before{
+     
+     content: "";
+     position: absolute;
+     top: 6px;
+     left: 6px;
+     bottom: 6px;
+     right: 6px;
+     background: linear-gradient(90deg , #232323,#4a4a4a);
+     border-radius: 6px;
+     box-shadow: 10px 10px 10px rgba(0,0,0,0.25),10px  5px 10px rgba(0,0,0,0.15);
+     border-left: 1px solid rgba(36, 31, 31, 0.267);
+     border-bottom: 1px solid rgba(27, 24, 24, 0.267);
+     border-top: 1px solid rgba(36, 33, 33, 0.6);
+ }
+
+
+
+
+.keyboard-container .row-3{
+    margin-top: 10px;
+   
+    height: 50px;
+    display: flex;
+   
+}
+  
+.keyboard-container .row-3  p{
+    position: absolute;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-left: 15px;
+    font-weight: bold;
+  
+  }
+
+
+.keyboard-container .row-3 .order-1{
+    display: flex;
+   
+    gap: 10px;
+   
+}
+
+
+.keyboard-container .row-3 .keys-tab{
+    position: relative;
+    background: linear-gradient(180deg,#251f1f,#1e201d);
+    width: 80px;
+    height: 50px;
+    border-radius: 8px;
+    box-shadow: inset -8px 0 8px rgba(56, 48, 48, 0.15),
+     inset 0 -8px 8px rgba(43, 38, 38, 0.25),
+      0 0 0 2px rgba(31, 27, 27, 0.75),
+      10px 20px 25px rgba(34, 31, 31, 0.4)
+ }
+ .keyboard-container .row-3 .keys-tab::before{
+     
+     content: "";
+     position: absolute;
+     top: 6px;
+     left: 6px;
+     bottom: 6px;
+     right: 6px;
+     background: linear-gradient(90deg , #232323,#4a4a4a);
+     border-radius: 6px;
+     box-shadow: 10px 10px 10px rgba(0,0,0,0.25),10px  5px 10px rgba(0,0,0,0.15);
+     border-left: 1px solid rgba(36, 31, 31, 0.267);
+     border-bottom: 1px solid rgba(27, 24, 24, 0.267);
+     border-top: 1px solid rgba(36, 33, 33, 0.6);
+ }
+
+ .keyboard-container .row-3 .order-2{
+    display: flex;
+    margin-left: 10px;
+    gap: 10px;
+   
+}
+
+.keyboard-container .row-3 .keys{
+    position: relative;
+    background: linear-gradient(180deg,#251f1f,#1e201d);
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    box-shadow: inset -8px 0 8px rgba(56, 48, 48, 0.15),
+     inset 0 -8px 8px rgba(43, 38, 38, 0.25),
+      0 0 0 2px rgba(31, 27, 27, 0.75),
+      10px 20px 25px rgba(34, 31, 31, 0.4)
+ }
+ .keyboard-container .row-3 .keys::before{
+     
+     content: "";
+     position: absolute;
+     top: 6px;
+     left: 6px;
+     bottom: 6px;
+     right: 6px;
+     background: linear-gradient(90deg , #232323,#4a4a4a);
+     border-radius: 6px;
+     box-shadow: 10px 10px 10px rgba(0,0,0,0.25),10px  5px 10px rgba(0,0,0,0.15);
+     border-left: 1px solid rgba(36, 31, 31, 0.267);
+     border-bottom: 1px solid rgba(27, 24, 24, 0.267);
+     border-top: 1px solid rgba(36, 33, 33, 0.6);
+ }
+
+ .keyboard-container .row-3 .order-3{
+    display: flex;
+    margin-left: 10px;
+    gap: 10px;
+   
+}
+
+.keyboard-container .row-3 .keys-slash{
+    position: relative;
+    background: linear-gradient(180deg,#251f1f,#1e201d);
+    width: 80px;
+    height: 50px;
+    border-radius: 8px;
+    box-shadow: inset -8px 0 8px rgba(56, 48, 48, 0.15),
+     inset 0 -8px 8px rgba(43, 38, 38, 0.25),
+      0 0 0 2px rgba(31, 27, 27, 0.75),
+      10px 20px 25px rgba(34, 31, 31, 0.4)
+ }
+ .keyboard-container .row-3 .keys-slash::before{
+     
+     content: "";
+     position: absolute;
+     top: 6px;
+     left: 6px;
+     bottom: 6px;
+     right: 6px;
+     background: linear-gradient(90deg , #232323,#4a4a4a);
+     border-radius: 6px;
+     box-shadow: 10px 10px 10px rgba(0,0,0,0.25),10px  5px 10px rgba(0,0,0,0.15);
+     border-left: 1px solid rgba(36, 31, 31, 0.267);
+     border-bottom: 1px solid rgba(27, 24, 24, 0.267);
+     border-top: 1px solid rgba(36, 33, 33, 0.6);
+ }
+
+
+
+.keyboard-container .row-3 .order-4{
+    display: flex;
+    margin-left: 45px;
+    gap: 10px;
+}
+
+.keyboard-container .row-3 .keys{
+    position: relative;
+    background: linear-gradient(180deg,#251f1f,#1e201d);
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    box-shadow: inset -8px 0 8px rgba(56, 48, 48, 0.15),
+     inset 0 -8px 8px rgba(43, 38, 38, 0.25),
+      0 0 0 2px rgba(31, 27, 27, 0.75),
+      10px 20px 25px rgba(34, 31, 31, 0.4)
+ }
+ .keyboard-container .row-3 .keys::before{
+     
+     content: "";
+     position: absolute;
+     top: 6px;
+     left: 6px;
+     bottom: 6px;
+     right: 6px;
+     background: linear-gradient(90deg , #232323,#4a4a4a);
+     border-radius: 6px;
+     box-shadow: 10px 10px 10px rgba(0,0,0,0.25),10px  5px 10px rgba(0,0,0,0.15);
+     border-left: 1px solid rgba(36, 31, 31, 0.267);
+     border-bottom: 1px solid rgba(27, 24, 24, 0.267);
+     border-top: 1px solid rgba(36, 33, 33, 0.6);
+ }
+
+.keyboard-container .row-4{
+    margin-top: 10px;
+  
+    display: flex;
+    height: 50px;
+   
+}
+
+.keyboard-container .row-4 p{
+    position: absolute;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-left: 15px;
+    font-weight: bold;
+  
+  }
+
+
+.keyboard-container .row-4 .order-1{
+    display: flex;
+   
+    gap: 10px;
+}
+
+
+
+.keyboard-container .row-4 .keys-capslock{
+    position: relative;
+    background: linear-gradient(180deg,#251f1f,#1e201d);
+    width: 100px;
+    height: 50px;
+    border-radius: 8px;
+    box-shadow: inset -8px 0 8px rgba(56, 48, 48, 0.15),
+     inset 0 -8px 8px rgba(43, 38, 38, 0.25),
+      0 0 0 2px rgba(31, 27, 27, 0.75),
+      10px 20px 25px rgba(34, 31, 31, 0.4)
+ }
+ .keyboard-container .row-4 .keys-capslock::before{
+     
+     content: "";
+     position: absolute;
+     top: 6px;
+     left: 6px;
+     bottom: 6px;
+     right: 6px;
+     background: linear-gradient(90deg , #232323,#4a4a4a);
+     border-radius: 6px;
+     box-shadow: 10px 10px 10px rgba(0,0,0,0.25),10px  5px 10px rgba(0,0,0,0.15);
+     border-left: 1px solid rgba(36, 31, 31, 0.267);
+     border-bottom: 1px solid rgba(27, 24, 24, 0.267);
+     border-top: 1px solid rgba(36, 33, 33, 0.6);
+ }
+ .keyboard-container .row-4 .order-2{
+    display: flex;
+    margin-left: 10px;
+    gap: 10px;
+}
+
+.keyboard-container .row-4 .keys{
+    position: relative;
+    background: linear-gradient(180deg,#251f1f,#1e201d);
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    box-shadow: inset -8px 0 8px rgba(56, 48, 48, 0.15),
+     inset 0 -8px 8px rgba(43, 38, 38, 0.25),
+      0 0 0 2px rgba(31, 27, 27, 0.75),
+      10px 20px 25px rgba(34, 31, 31, 0.4)
+ }
+ .keyboard-container .row-4 .keys::before{
+     
+     content: "";
+     position: absolute;
+     top: 6px;
+     left: 6px;
+     bottom: 6px;
+     right: 6px;
+     background: linear-gradient(90deg , #232323,#4a4a4a);
+     border-radius: 6px;
+     box-shadow: 10px 10px 10px rgba(0,0,0,0.25),10px  5px 10px rgba(0,0,0,0.15);
+     border-left: 1px solid rgba(36, 31, 31, 0.267);
+     border-bottom: 1px solid rgba(27, 24, 24, 0.267);
+     border-top: 1px solid rgba(36, 33, 33, 0.6);
+ }
+
+
+ .keyboard-container .row-4 .order-3{
+    display: flex;
+    margin-left: 10px;
+    gap: 10px;
+}
+
+.keyboard-container .row-4 .keys-enter{
+    position: relative;
+    background: linear-gradient(180deg,#251f1f,#1e201d);
+    width: 120px;
+    height: 50px;
+    border-radius: 8px;
+    box-shadow: inset -8px 0 8px rgba(56, 48, 48, 0.15),
+     inset 0 -8px 8px rgba(43, 38, 38, 0.25),
+      0 0 0 2px rgba(31, 27, 27, 0.75),
+      10px 20px 25px rgba(34, 31, 31, 0.4)
+ }
+ .keyboard-container .row-4 .keys-enter::before{
+     
+     content: "";
+     position: absolute;
+     top: 6px;
+     left: 6px;
+     bottom: 6px;
+     right: 6px;
+     background: linear-gradient(90deg , #232323,#4a4a4a);
+     border-radius: 6px;
+     box-shadow: 10px 10px 10px rgba(0,0,0,0.25),10px  5px 10px rgba(0,0,0,0.15);
+     border-left: 1px solid rgba(36, 31, 31, 0.267);
+     border-bottom: 1px solid rgba(27, 24, 24, 0.267);
+     border-top: 1px solid rgba(36, 33, 33, 0.6);
+ }
+
+
+.keyboard-container .row-5{
+    margin-top: 10px;
+    
+   display: flex;
+    height: 50px;
+   
+}
+
+.keyboard-container .row-5  p{
+    position: absolute;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-left: 15px;
+    font-weight: bold;
+  
+  }
+
+.keyboard-container .row-5 .order-1{
+    display: flex;
+  
+    gap: 10px;
+}
+
+.keyboard-container .row-5 .keys-shift{
+    position: relative;
+    background: linear-gradient(180deg,#251f1f,#1e201d);
+    width: 140px;
+    height: 50px;
+    border-radius: 8px;
+    box-shadow: inset -8px 0 8px rgba(56, 48, 48, 0.15),
+     inset 0 -8px 8px rgba(43, 38, 38, 0.25),
+      0 0 0 2px rgba(31, 27, 27, 0.75),
+      10px 20px 25px rgba(34, 31, 31, 0.4)
+ }
+ .keyboard-container .row-5 .keys-shift::before{
+     
+     content: "";
+     position: absolute;
+     top: 6px;
+     left: 6px;
+     bottom: 6px;
+     right: 6px;
+     background: linear-gradient(90deg , #232323,#4a4a4a);
+     border-radius: 6px;
+     box-shadow: 10px 10px 10px rgba(0,0,0,0.25),10px  5px 10px rgba(0,0,0,0.15);
+     border-left: 1px solid rgba(36, 31, 31, 0.267);
+     border-bottom: 1px solid rgba(27, 24, 24, 0.267);
+     border-top: 1px solid rgba(36, 33, 33, 0.6);
+ }
+ 
+ .keyboard-container .row-5 .order-2{
+    display: flex;
+    margin-left: 10px;
+    gap: 10px;
+}
+
+.keyboard-container .row-5 .keys{
+    position: relative;
+    background: linear-gradient(180deg,#251f1f,#1e201d);
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    box-shadow: inset -8px 0 8px rgba(56, 48, 48, 0.15),
+     inset 0 -8px 8px rgba(43, 38, 38, 0.25),
+      0 0 0 2px rgba(31, 27, 27, 0.75),
+      10px 20px 25px rgba(34, 31, 31, 0.4)
+ }
+ .keyboard-container .row-5 .keys::before{
+     
+     content: "";
+     position: absolute;
+     top: 6px;
+     left: 6px;
+     bottom: 6px;
+     right: 6px;
+     background: linear-gradient(90deg , #232323,#4a4a4a);
+     border-radius: 6px;
+     box-shadow: 10px 10px 10px rgba(0,0,0,0.25),10px  5px 10px rgba(0,0,0,0.15);
+     border-left: 1px solid rgba(36, 31, 31, 0.267);
+     border-bottom: 1px solid rgba(27, 24, 24, 0.267);
+     border-top: 1px solid rgba(36, 33, 33, 0.6);
+ }
+ 
+ .keyboard-container .row-5 .order-3{
+    display: flex;
+    margin-left: 10px;
+    gap: 10px;
+}
+
+.keyboard-container .row-5 .keys-shift2{
+    position: relative;
+    background: linear-gradient(180deg,#251f1f,#1e201d);
+    width: 140px;
+    height: 50px;
+    border-radius: 8px;
+    box-shadow: inset -8px 0 8px rgba(56, 48, 48, 0.15),
+     inset 0 -8px 8px rgba(43, 38, 38, 0.25),
+      0 0 0 2px rgba(31, 27, 27, 0.75),
+      10px 20px 25px rgba(34, 31, 31, 0.4)
+ }
+ .keyboard-container .row-5 .keys-shift2::before{
+     
+     content: "";
+     position: absolute;
+     top: 6px;
+     left: 6px;
+     bottom: 6px;
+     right: 6px;
+     background: linear-gradient(90deg , #232323,#4a4a4a);
+     border-radius: 6px;
+     box-shadow: 10px 10px 10px rgba(0,0,0,0.25),10px  5px 10px rgba(0,0,0,0.15);
+     border-left: 1px solid rgba(36, 31, 31, 0.267);
+     border-bottom: 1px solid rgba(27, 24, 24, 0.267);
+     border-top: 1px solid rgba(36, 33, 33, 0.6);
+ }
+
+ .keyboard-container .row-5 .order-4{
+    display: flex;
+    margin-left: 110px;
+    gap: 10px;
+}
+
+.keyboard-container .row-5 .keys{
+    position: relative;
+    background: linear-gradient(180deg,#251f1f,#1e201d);
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    box-shadow: inset -8px 0 8px rgba(56, 48, 48, 0.15),
+     inset 0 -8px 8px rgba(43, 38, 38, 0.25),
+      0 0 0 2px rgba(31, 27, 27, 0.75),
+      10px 20px 25px rgba(34, 31, 31, 0.4)
+ }
+ .keyboard-container .row-5 .keys::before{
+     
+     content: "";
+     position: absolute;
+     top: 6px;
+     left: 6px;
+     bottom: 6px;
+     right: 6px;
+     background: linear-gradient(90deg , #232323,#4a4a4a);
+     border-radius: 6px;
+     box-shadow: 10px 10px 10px rgba(0,0,0,0.25),10px  5px 10px rgba(0,0,0,0.15);
+     border-left: 1px solid rgba(36, 31, 31, 0.267);
+     border-bottom: 1px solid rgba(27, 24, 24, 0.267);
+     border-top: 1px solid rgba(36, 33, 33, 0.6);
+ }
+ 
+.keyboard-container .row-6{
+    margin-top: 10px;
+   
+    display: flex;
+    height: 50px;
+}
+.keyboard-container .row-6  p{
+    position: absolute;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-left: 10px;
+    font-weight: bold;
+  
+  }
+
+.keyboard-container .row-6 .order-1{
+    display: flex;
+    
+    gap: 10px;
+}
+
+.keyboard-container .row-6 .keys{
+    position: relative;
+    background: linear-gradient(180deg,#251f1f,#1e201d);
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    box-shadow: inset -8px 0 8px rgba(56, 48, 48, 0.15),
+     inset 0 -8px 8px rgba(43, 38, 38, 0.25),
+      0 0 0 2px rgba(31, 27, 27, 0.75),
+      10px 20px 25px rgba(34, 31, 31, 0.4)
+ }
+ .keyboard-container .row-6 .keys::before{
+     
+     content: "";
+     position: absolute;
+     top: 6px;
+     left: 6px;
+     bottom: 6px;
+     right: 6px;
+     background: linear-gradient(90deg , #232323,#4a4a4a);
+     border-radius: 6px;
+     box-shadow: 10px 10px 10px rgba(0,0,0,0.25),10px  5px 10px rgba(0,0,0,0.15);
+     border-left: 1px solid rgba(36, 31, 31, 0.267);
+     border-bottom: 1px solid rgba(27, 24, 24, 0.267);
+     border-top: 1px solid rgba(36, 33, 33, 0.6);
+ }
+ 
+ .keyboard-container .row-6 .order-2{
+    display: flex;
+    margin-left: 10px;
+    gap: 10px;
+}
+
+.keyboard-container .row-6 .keys-space{
+    position: relative;
+    background: linear-gradient(180deg,#251f1f,#1e201d);
+    width: 470px;
+    height: 50px;
+    border-radius: 8px;
+    box-shadow: inset -8px 0 8px rgba(56, 48, 48, 0.15),
+     inset 0 -8px 8px rgba(43, 38, 38, 0.25),
+      0 0 0 2px rgba(31, 27, 27, 0.75),
+      10px 20px 25px rgba(34, 31, 31, 0.4)
+ }
+ .keyboard-container .row-6 .keys-space::before{
+     
+     content: "";
+     position: absolute;
+     top: 6px;
+     left: 6px;
+     bottom: 6px;
+     right: 6px;
+     background: linear-gradient(90deg , #232323,#4a4a4a);
+     border-radius: 6px;
+     box-shadow: 10px 10px 10px rgba(0,0,0,0.25),10px  5px 10px rgba(0,0,0,0.15);
+     border-left: 1px solid rgba(36, 31, 31, 0.267);
+     border-bottom: 1px solid rgba(27, 24, 24, 0.267);
+     border-top: 1px solid rgba(36, 33, 33, 0.6);
+ }
+
+ .keyboard-container .row-6 .order-3{
+    display: flex;
+    margin-left: 10px;
+    gap: 10px;
+}
+
+.keyboard-container .row-6 .keys{
+    position: relative;
+    background: linear-gradient(180deg,#251f1f,#1e201d);
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    box-shadow: inset -8px 0 8px rgba(56, 48, 48, 0.15),
+     inset 0 -8px 8px rgba(43, 38, 38, 0.25),
+      0 0 0 2px rgba(31, 27, 27, 0.75),
+      10px 20px 25px rgba(34, 31, 31, 0.4)
+ }
+ .keyboard-container .row-6 .keys::before{
+     
+     content: "";
+     position: absolute;
+     top: 6px;
+     left: 6px;
+     bottom: 6px;
+     right: 6px;
+     background: linear-gradient(90deg , #232323,#4a4a4a);
+     border-radius: 6px;
+     box-shadow: 10px 10px 10px rgba(0,0,0,0.25),10px  5px 10px rgba(0,0,0,0.15);
+     border-left: 1px solid rgba(36, 31, 31, 0.267);
+     border-bottom: 1px solid rgba(27, 24, 24, 0.267);
+     border-top: 1px solid rgba(36, 33, 33, 0.6);
+ }
+
+ .keyboard-container .row-6 .order-3{
+    display: flex;
+    margin-left: 10px;
+    gap: 10px;
+}
+
+.keyboard-container .row-6 .keys{
+    position: relative;
+    background: linear-gradient(180deg,#251f1f,#1e201d);
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    box-shadow: inset -8px 0 8px rgba(56, 48, 48, 0.15),
+     inset 0 -8px 8px rgba(43, 38, 38, 0.25),
+      0 0 0 2px rgba(31, 27, 27, 0.75),
+      10px 20px 25px rgba(34, 31, 31, 0.4)
+ }
+ .keyboard-container .row-6 .keys::before{
+     
+     content: "";
+     position: absolute;
+     top: 6px;
+     left: 6px;
+     bottom: 6px;
+     right: 6px;
+     background: linear-gradient(90deg , #232323,#4a4a4a);
+     border-radius: 6px;
+     box-shadow: 10px 10px 10px rgba(0,0,0,0.25),10px  5px 10px rgba(0,0,0,0.15);
+     border-left: 1px solid rgba(36, 31, 31, 0.267);
+     border-bottom: 1px solid rgba(27, 24, 24, 0.267);
+     border-top: 1px solid rgba(36, 33, 33, 0.6);
+ }
+
+
+ .keyboard-container .row-6 .order-4{
+    display: flex;
+    margin-left: 50px;
+    gap: 10px;
+}
+
+.keyboard-container .row-6 .keys{
+    position: relative;
+    background: linear-gradient(180deg,#251f1f,#1e201d);
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    box-shadow: inset -8px 0 8px rgba(56, 48, 48, 0.15),
+     inset 0 -8px 8px rgba(43, 38, 38, 0.25),
+      0 0 0 2px rgba(31, 27, 27, 0.75),
+      10px 20px 25px rgba(34, 31, 31, 0.4)
+ }
+ .keyboard-container .row-6 .keys::before{
+     
+     content: "";
+     position: absolute;
+     top: 6px;
+     left: 6px;
+     bottom: 6px;
+     right: 6px;
+     background: linear-gradient(90deg , #232323,#4a4a4a);
+     border-radius: 6px;
+     box-shadow: 10px 10px 10px rgba(0,0,0,0.25),10px  5px 10px rgba(0,0,0,0.15);
+     border-left: 1px solid rgba(36, 31, 31, 0.267);
+     border-bottom: 1px solid rgba(27, 24, 24, 0.267);
+     border-top: 1px solid rgba(36, 33, 33, 0.6);
+ }
+
+ .keyboard-container  .keys:hover::before{
+    top: 1px;
+    left: 1px;
+    bottom: 1px;
+    right: 1px;
+    cursor: pointer;
+    
+    
+ }
+
+ .keyboard-container  .keys p{
+   
+    cursor: pointer;
+    
+ }
+
+ .keyboard-container  .keys-tab:hover::before{
+    top: 1px;
+    left: 1px;
+    bottom: 1px;
+    right: 1px;
+    cursor: pointer;
+    
+ }
+
+
+ .keyboard-container  .keys-tab p{
+   
+    cursor: pointer;
+    
+ }
+ .keyboard-container  .keys-backspace:hover::before{
+    top: 1px;
+    left: 1px;
+    bottom: 1px;
+    right: 1px;
+    cursor: pointer;
+    
+    
+ }
+
+ .keyboard-container  .keys-backspace p{
+   
+    cursor: pointer;
+    
+ }
+
+ .keyboard-container  .keys-capslock:hover::before{
+    top: 1px;
+    left: 1px;
+    bottom: 1px;
+    right: 1px;
+    cursor: pointer;
+    
+    
+ }
+
+ .keyboard-container  .keys-capslock p{
+   
+    cursor: pointer;
+    
+ }
+ .keyboard-container  .keys-enter:hover::before{
+    top: 1px;
+    left: 1px;
+    bottom: 1px;
+    right: 1px;
+    cursor: pointer;
+    
+    
+ }
+
+ .keyboard-container  .keys-enter p{
+   
+    cursor: pointer;
+    
+
+
+ }
+
+ .keyboard-container  .keys-shift:hover::before{
+    top: 1px;
+    left: 1px;
+    bottom: 1px;
+    right: 1px;
+    cursor: pointer;
+    
+    
+ }
+
+ .keyboard-container  .keys-shift p{
+   
+    cursor: pointer;
+
+ }
+
+ .keyboard-container  .keys-slash:hover::before{
+    top: 1px;
+    left: 1px;
+    bottom: 1px;
+    right: 1px;
+    cursor: pointer;
+    
+    
+ }
+
+ .keyboard-container  .keys-slash p{
+   
+    cursor: pointer;
+    
+
+ }
+
+
+ .keyboard-container  .keys-shift2:hover::before{
+    top: 1px;
+    left: 1px;
+    bottom: 1px;
+    right: 1px;
+    cursor: pointer;
+    
+    
+ }
+
+ .keyboard-container  .keys-shift2 p{
+   
+    cursor: pointer;
+    
+
+ }
+
+
+ .keyboard-container  .keys-space:hover::before{
+    top: 1px;
+    left: 1px;
+    bottom: 1px;
+    right: 1px;
+    cursor: pointer;
+    
+    
+ }
+
+ .keyboard-container  .keys-space p{
+   
+    cursor: pointer;
+    
+
+ }
+
+
+ .switch {
+    position: absolute;
+    top: 550px;
+    left: 600px;
+    display: inline-block;
+    width: 90px;
+    height: 44px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 36px;
+    width: 36px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background: rgb(223, 5, 5);
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px rgb(207, 20, 51);
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(40px);
+    -ms-transform: translateX(40px);
+    transform: translateX(40px);
+  }
+  
+  /* Rounded sliders */
+  .slider {
+    border-radius: 34px;
+  }
+  
+  .slider:before {
+    border-radius: 50%;
+  }
+
+  /* #key{
+
+    background: linear-gradient(to right,rgb(14, 243, 193),rgb(78, 60, 236));
+    box-shadow: 0px 3px 50px 2px rgb(14, 48, 243) ;
+   
+
+  } */
+  /* #key2{
+    background: linear-gradient(to right,rgb(2, 202, 19),rgb(104, 217, 245));
+    box-shadow: 0px 3px 50px 2px rgb(243, 112, 5) ;
+    
+  }
+
+  #key3{
+    background: linear-gradient(to right,rgba(243, 14, 14, 0.678),rgba(253, 168, 11, 0.973));
+    box-shadow: 0px 3px 50px 6px rgb(243, 5, 5) ;
+    
+  } */
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
